@@ -1,0 +1,16 @@
+
+:root {
+    --black: #000000;
+    --gray: #333333;
+    --red: #c82113;
+    --darkred: #94180e;
+    --lightblue: #1085df;
+    --blue: #0e5a94;
+}
+body {
+    background-color: var(--black);
+    color: var(--gray);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
