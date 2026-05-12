@@ -120,7 +120,7 @@ section {
     gap: 10px;
 }
 .main-image {
-    width: 25%;
+    width: 50%;
 }
 .main-image img{
       width: 100%;
@@ -132,7 +132,8 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 10px;
-    width: 25%;
+    width: 50%;
+    height: auto;
     }
  
 .thumbnails img {
@@ -154,6 +155,8 @@ section {
 .kontakt-map {
     flex: 1 1 320px;
     min-width: 320px;
+    font-size: 1.3rem;
+    color: white;
 }
 .kontakt-map h3,
 .kontakt-info h3 {
